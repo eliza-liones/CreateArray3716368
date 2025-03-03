@@ -71,6 +71,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\jquery-3.7.1.intellisense.js" />
+    <Content Include="CategoryUseArraySessionVariables.aspx" />
     <Content Include="CreateArray.aspx" />
     <Content Include="Scripts\jquery-3.7.1.js" />
     <Content Include="Scripts\jquery-3.7.1.min.js" />
@@ -79,6 +80,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CategoryUseArraySessionVariables.aspx.cs">
+      <DependentUpon>CategoryUseArraySessionVariables.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CategoryUseArraySessionVariables.aspx.designer.cs">
+      <DependentUpon>CategoryUseArraySessionVariables.aspx</DependentUpon>
+    </Compile>
     <Compile Include="CreateArray.aspx.cs">
       <DependentUpon>CreateArray.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
